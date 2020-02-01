@@ -1,0 +1,89 @@
+/*@media only screen and (min-width : 320px) and (max-width : 900px)*/
+
+
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    align-items: center;
+
+    padding: 20px;
+    margin: 20px;
+}
+
+#user_block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    padding: 20px;
+    margin: 20px;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    margin-left: 50px;
+}
+
+
+.avatar {
+    border-radius: 10%;
+    width: 240px;
+}
+
+.user-head{
+    margin: 8px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(51, 51, 51, 255);
+    text-align: center;
+}
+
+.user-bio{
+    margin: 8px;
+
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 14px;
+    color: rgba(102, 102, 102, 255);
+    text-align: center;
+    width: 211px;
+}
+
+#ConUs:before,
+#ConUs:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    width: 10%;
+    height: 3px;
+    background-color: grey;
+    border: #FFF;
+    border-width: 0 10px;
+    position: relative;
+}
+#ConUs{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(51, 51, 51, 255);
+    text-align: center;
+    color: rgb(7, 99, 37);
+}
+
+#p2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(51, 51, 51, 255);
+    text-align: center;
+    color: gray;
+}
